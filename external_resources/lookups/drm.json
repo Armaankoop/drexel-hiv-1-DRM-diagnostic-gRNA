@@ -1,0 +1,394 @@
+{
+  "protease" :
+  {
+    "D30N" :
+    {
+      "pos" : 30,
+      "resistance":
+      {
+        "N" : ["Neflinavir"]
+      }
+    },
+    "V32I" :
+    {
+      "pos" : 32,
+      "resistance":
+      {
+        "I" : ["Lopinavir/Ritonavir"]
+      }
+    },
+    "M46I/L" :
+    {
+      "pos" : 46,
+      "resistance" :
+      {
+        "I/L" : ["Indinavir/Ritonavir"]
+      }
+    },
+    "I47V/A" :
+    {
+      "pos" : 47,
+      "resistance" :
+      {
+        "V" : ["Darunavir/Ritonavir","Tipranavir/Ritonavir"],
+        "V/A" : ["Lopinavir/Ritonavir"]
+      }
+    },
+    "G48V" :
+    {
+      "pos" : 48,
+      "resistance" :
+      {
+        "V" : ["Saquinavir/Ritonavir"]
+      }
+    },
+    "I50V/L" :
+    {
+      "pos" : 50,
+      "resistance" :
+      {
+        "L" : ["Atazanavir/Ritonavir","Atazanavir"],
+        "V" : ["Darunavir/Ritonavir","Lopinavir/Ritonavir","Fosamprenavir/Ritonavir"]
+      }
+    },
+    "I54M/L/V" :
+    {
+      "pos" : 54,
+      "resistance" :
+      {
+        "M/L" : ["Darunavir/Ritonavir"],
+        "V/L/M" : ["Lopinavir/Ritonavir"]
+      }
+    },
+    "Q58E" :
+    {
+      "pos" : 58,
+      "resistance" :
+      {
+        "E" : ["Tipranavir/Ritonavir"]
+      }
+    },
+    "T74P" :
+    {
+      "pos" : 74,
+      "resistance" :
+      {
+        "P" : ["Tipranavir/Ritonavir"]
+      }
+    },
+    "L76V" :
+    {
+      "pos" : 76,
+      "resistance" :
+      {
+        "V" : ["Darunavir/Ritonavir","Lopinavir/Ritonavir"]
+      }
+    },
+    "V82A/F/T/S/L" :
+    {
+      "pos" : 82,
+      "resistance" :
+      {
+        "A/F/T/S" : ["Lopinavir/Ritonavir"],
+        "L/T" : ["Tipranavir/Ritonavir"],
+        "A/F/T" : ["Indinavir/Ritonavir"]
+      }
+    },
+    "N83D" :
+    {
+      "pos" : 83,
+      "resistance" :
+      {
+        "D" : ["Tipranavir/Ritonavir"]
+      }
+    },
+    "I84V" :
+    {
+      "pos" : 84,
+      "resistance" :
+      {
+        "V" : ["Atazanavir/Ritonavir","Atazanavir","Darunavir/Ritonavir","Lopinavir/Ritonavir","Tipranavir/Ritonavir","Fosamprenavir/Ritonavir","Indinavir/Ritonavir"]
+      }
+    },
+    "N88S" :
+    {
+      "pos" : 88,
+      "resistance" :
+      {
+        "S" : ["Atazanavir/Ritonavir","Atazanavir"]
+      }
+    },
+    "L90M" :
+    {
+      "pos" : 90,
+      "resistance" :
+      {
+        "M" : ["Neflinavir","Saquinavir/Ritonavir"]
+      }
+    }
+  },
+
+  "integrase" :
+  {
+    "T66I" :
+    {
+      "pos" : 66,
+      "resistance" :
+      {
+        "I" : ["Elvitegravir"]
+      }
+    },
+    "E92Q" :
+    {
+      "pos" : 92,
+      "resistance" :
+      {
+        "Q" : ["Elvitegravir"]
+      }
+    },
+    "G118R" :
+    {
+      "pos" : 118,
+      "resistance" :
+      {
+        "R" : ["Cabotegravir","Dolutegravir"]
+      }
+    },
+    "F121Y" :
+    {
+      "pos" : 121,
+      "resistance" :
+      {
+        "Y" : ["Elvitegravir","Raltegravir"]
+      }
+    },
+    "G140R" :
+    {
+      "pos" : 140,
+      "resistance" :
+      {
+        "R" : ["Cabotegravir"]
+      }
+    },
+    "Y143R/H/C" :
+    {
+      "pos" : 143,
+      "resistance" :
+      {
+        "R/H/C" : ["Raltegravir"]
+      }
+    },
+    "S147G" :
+    {
+      "pos" : 147,
+      "resistance" :
+      {
+        "G" : ["Elvitegravir"]
+      }
+    },
+    "Q148H/K/R" :
+    {
+      "pos" : 147,
+      "resistance" : {
+        "H" : ["Bictegravir"],
+        "H/K/R" : ["Cabotegravir","Dolutegravir","Elvitegravir","Raltegravir"]
+      }
+    },
+    "N155H" :
+    {
+      "pos" : 155,
+      "resistance" :
+      {
+        "H" : ["Elvitegravir","Raltegravir"]
+      }
+    },
+    "R263K" :
+    {
+      "pos" : 263,
+      "resistance" :
+      {
+        "K" : ["Bictegravir","Cabotegravir","Dolutegravir","Elvitegravir","Raltegravir"]
+      }
+    }
+  },
+  "gp41" :
+  {
+    "G36D/S" :
+    {
+      "pos" : 36,
+      "resistance" :
+      {
+        "D/S" : ["Enfuvirtide"]
+      }
+    },
+    "I37V" :
+    {
+      "pos" : 37,
+      "resistance" :
+      {
+        "V" : ["Enfuvirtide"]
+      }
+    },
+    "V38A/M/E" :
+    {
+      "pos" : 38,
+      "resistance" :
+      {
+        "A/M/E" : ["Enfuvirtide"]
+      }
+    },
+    "Q39R" :
+    {
+      "pos" : 39,
+      "resistance" :
+      {
+        "R" : ["Enfuvirtide"]
+      }
+    },
+    "Q40H" :
+    {
+      "pos" : 40,
+      "resistance" :
+      {
+        "H" : ["Enfuvirtide"]
+      }
+    },
+    "N42T" :
+    {
+      "pos" : 42,
+      "resistance" :
+      {
+        "T" : ["Enfuvirtide"]
+      }
+    },
+    "N43D" :
+    {
+      "pos" : 43,
+      "resistance" :
+      {
+        "D" : ["Enfuvirtide"]
+      }
+    }
+  },
+  "reverse_transcriptase" :
+  {
+    "L100I" :
+    {
+      "pos" : 100,
+      "resistance" :
+      {
+        "I" : ["Efavirenz","Etravirine","Nevirapine","Rilpivirine"]
+      }
+    },
+    "K101P/E" :
+    {
+      "pos" : 101,
+      "resistance" :
+      {
+        "P" : ["Efavirenz","Etravirine","Nevirapine"],
+        "P/E" : ["Rilpivirine"]
+      }
+    },
+    "K103N/S" :
+    {
+      "pos" : 103,
+      "resistance" :
+      {
+        "N/S" : ["Efavirenz","Nevirapine"]
+      }
+    },
+    "V106A/M" :
+    {
+      "pos" : 106,
+      "resistance" :
+      {
+        "M" : ["Efavirenz"],
+        "A/M" : ["Doravirine","Nevirapine"]
+      }
+    },
+    "V108I" :
+    {
+      "pos" : 108,
+      "resistance" :
+      {
+        "I" : ["Efavirenz","Nevirapine"]
+      }
+    },
+    "E138A/G/K/Q/R" :
+    {
+      "pos" : 138,
+      "resistance" :
+      {
+        "A/G/K/Q/R" : ["Rilpivirine"]
+      }
+    },
+    "V179L" :
+    {
+      "pos" : 179,
+      "resistance" :
+      {
+        "L" : ["Rilpivirine"]
+      }
+    },
+    "Y181C/I/V" :
+    {
+      "pos" : 181,
+      "resistance" :
+      {
+        "C/I" : ["Efavirenz","Nevirapine"],
+        "C/I/V" : ["Etravirine","Rilpivirine"]
+      }
+    },
+    "Y188L/C/H" :
+    {
+      "pos" : 188,
+      "resistance" :
+      {
+        "L" : ["Doravirine","Efavirenz","Rilpivirine"],
+        "C/L/H" : ["Nevirapine"]
+      }
+    },
+    "G190S/A" :
+    {
+      "pos" : 190,
+      "resistance" :
+      {
+        "S/A" : ["Efavirenz"],
+        "A" : ["Nevirapine"]
+      }
+    },
+    "H221Y" :
+    {
+      "pos" : 221,
+      "resistance" :
+      {
+        "Y" : ["Rilpivirine"]
+      }
+    },
+    "P225H" :
+    {
+      "pos" : 225,
+      "resistance" :
+      {
+        "H" : ["Efavirenz"]
+      }
+    },
+    "F227C" :
+    {
+      "pos" : 227,
+      "resistance" :
+      {
+        "C" : ["Rilpivirine"]
+      }
+    },
+    "M230L/I" :
+    {
+      "pos" : 230,
+      "resistance" :
+      {
+        "L" : ["Efavirenz","Nevirapine"],
+        "I/L" : ["Rilpivirine"]
+      }
+    }
+  }
+}
